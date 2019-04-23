@@ -1,0 +1,97 @@
+
+
+  .photo{
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        
+    }
+    h1{
+        color: antiquewhite;   
+    }
+    .WhichCity{
+        font-family: 'Bai Jamjuree';
+    }
+    body, html{
+        height: 100%;
+      }
+    .background{
+        background-image: url("mount.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:100%;
+    }
+    
+     
+       
+    table, th, td {
+        border: 1px solid black;
+    }
+   
+    .clearfix {
+        overflow: auto;
+        zoom: 1;
+    }
+.foreign{
+    color:white;    
+    font-family: 'Bai Jamjuree';
+}
+.Historic{
+    font-family: 'Bai Jamjuree';
+}
+    .profile img{
+        float:right;
+        transform: rotate(90deg);
+        width:350px;
+        height:350px;
+        padding:1px;
+        border:1px solid #021a40;
+    }
+.Barcelona img{
+        float:left;
+        height:400px;
+        width:550px;
+    }
+
+.flex-container {
+    display: flex;
+    flex-direction:row;
+  }
+.one img{
+    width:400px;
+    height:300px;
+}
+.two img{
+    width:400px;
+    height:300px;
+}
+.three img{
+    width:450px;
+    height:300px;
+    
+}
+.cont{
+    float:right;
+    color: antiquewhite;
+    font-family: 'Bai Jamjuree';
+
+}
+.name{
+    color: whitesmoke;
+    float:left;
+    font-size: 80px;
+    font-family: 'Bai Jamjuree';
+
+}
+.three{
+    color:antiquewhite;
+    font-family: 'Bai Jamjuree';
+}
+.one{
+   color: antiquewhite;
+   font-family: 'Bai Jamjuree'
+}
+.two{
+    color:yellowgreen;
+    font-family: 'Bai Jamjuree';
+}
