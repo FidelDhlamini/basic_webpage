@@ -40,38 +40,49 @@
     font-family: 'Bai Jamjuree';
 }
     .profile img{
-        float:right;
-        transform: rotate(90deg);
-        width:350px;
-        height:350px;
-        padding:1px;
+        float:left;
+       
+        width:200px;
+        height:200px;
         border:1px solid #021a40;
+        margin:1em;
     }
 .Barcelona img{
         float:left;
-        height:400px;
-        width:550px;
+        height:200px;
+        width:150px;
+        margin-right:1em;
     }
+  
 
 .flex-container {
     display: flex;
     flex-direction:row;
   }
+  @media(min-width:960px){
 .one img{
-    width:400px;
-    height:300px;
+    width:150px;
+    height:200px;
+    float:left;
+    margin:1em;
 }
 .two img{
-    width:400px;
-    height:300px;
+    width:150px;
+    height:200px;
+    float:right;
+    margin: 1em;
 }
 .three img{
-    width:450px;
-    height:300px;
+    width:150px;
+    height:200px;
+    float:left;
+    margin:1em;
     
 }
+  }
 .cont{
-    float:right;
+   margin:1em;
+    padding:1em;
     color: antiquewhite;
     font-family: 'Bai Jamjuree';
 
@@ -79,19 +90,44 @@
 .name{
     color: whitesmoke;
     float:left;
-    font-size: 80px;
+    font-size: 30px;
     font-family: 'Bai Jamjuree';
+    margin: 1em;
 
 }
 .three{
     color:antiquewhite;
     font-family: 'Bai Jamjuree';
+    float:left;
 }
 .one{
    color: antiquewhite;
-   font-family: 'Bai Jamjuree'
+   font-family: 'Bai Jamjuree';
+   float: left;
 }
 .two{
     color:yellowgreen;
     font-family: 'Bai Jamjuree';
+ 
 }
+.Barcelona{
+    color: #021a40
+}
+
+    .Historic{
+     flex:1
+    }
+    .header{
+        font-size: 30px;
+        font-family: 'Bai Jamjuree';
+        color: aliceblue
+
+}
+    @media(min-width:960px){
+       .Historic{
+           display: flex;
+       }
+
+    }
+
+
