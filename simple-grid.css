@@ -276,6 +276,7 @@ p {
 .barca{
   float:right;
   margin:1em;
+  padding: 2em;
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
