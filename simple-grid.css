@@ -253,27 +253,47 @@ p {
 }
 .textOne img{
   float: left;
+<<<<<<< HEAD
  
+=======
+  width:150px;
+  height:200px;
+>>>>>>> 02d24fc3950fb2b5c214d6dfb24470d0d54541f5
   
   margin:1em;
 
 }
 .textTwo img{
   float:left;
+<<<<<<< HEAD
  
+=======
+  width:150px;
+  height:200px;
+>>>>>>> 02d24fc3950fb2b5c214d6dfb24470d0d54541f5
   
   margin:1em;
 }
 .textThree img{
   float:left;
+<<<<<<< HEAD
  
+=======
+  width:150px;
+  height:200px;
+>>>>>>> 02d24fc3950fb2b5c214d6dfb24470d0d54541f5
  
   margin:1em;
 }
 .barca{
   float:right;
+<<<<<<< HEAD
 
 padding:1em;
+=======
+  margin:1em;
+  padding: 2em;
+>>>>>>> 02d24fc3950fb2b5c214d6dfb24470d0d54541f5
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
