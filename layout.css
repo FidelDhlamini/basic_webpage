@@ -49,8 +49,7 @@
     }
 .Barcelona img{
         float:left;
-        height:200px;
-        width:150px;
+     
         margin-right:1em;
     }
   
@@ -61,20 +60,17 @@
   }
   @media(min-width:960px){
 .one img{
-    width:150px;
-    height:200px;
+   
     float:left;
     margin:1em;
 }
 .two img{
-    width:150px;
-    height:200px;
+   
     float:left;
     margin: 1em;
 }
 .three img{
-    width:150px;
-    height:200px;
+   
     float:left;
     margin:1em;
     
